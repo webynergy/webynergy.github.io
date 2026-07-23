@@ -1,6 +1,9 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteRule ^services/?$ /service [R=301,L]
+  RewriteRule ^contacts/?$ /contact [R=301,L]
+  RewriteRule ^portfolios/?$ /portfolio [R=301,L]
+  RewriteRule ^faqs/?$ /faq [R=301,L]
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
