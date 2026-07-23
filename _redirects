@@ -1,2 +1,5 @@
 /services /service 301
+/contacts /contact 301
+/portfolios /portfolio 301
+/faqs /faq 301
 /*    /index.html   200
